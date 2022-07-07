@@ -1,6 +1,10 @@
-from django.http import HttpResponse
 from django.shortcuts import render
 
 def index(request):
-    return HttpResponse("Olá sol :)!")
+    """
+    FUNÇÃO INICIAL PARA A VIEW DE REVIEWS
+    """
+
+    name = "Sol"
     
+    return render(request, "base.html", {"name" : name})
