@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'livreto.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-db_name = os.getenv("DWD_DB_NAME")
+db_name = os.getenv("DWD_DB_NAME") # dwd_db_dev
 db_user = os.getenv("DWD_DB_USER")
 db_password = os.getenv("DWD_DB_PASSWORD")
 db_host = os.getenv("DWD_DB_HOST")
