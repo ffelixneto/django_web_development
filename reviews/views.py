@@ -31,7 +31,7 @@ def welcome_view(request):
     FUNÇÃO PARA EXIBIÇÃO DE BOAS VINDAS
     '''
 
-    return render(request, 'base.html')
+    return render(request, 'reviews/child.html')
 
 
 ### FUNÇÕES LISTAGEM COM TEMPLATE PARA LIVROS 
